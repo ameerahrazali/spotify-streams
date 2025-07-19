@@ -34,9 +34,7 @@ This project explores the most streamed Spotify songs of 2024 using data from [K
 
 ## Classification Modeling: Predicting Explicit Content
 
-The target variable is **explicit content** (binary: 1 = explicit, 0 = not explicit).  
-However, the dataset shows a **class imbalance**, with more non-explicit tracks.  
-To address this and avoid biased predictions, both models were trained using **`class_weight='balanced'`**, which adjusts for this skew by weighting minority class samples more heavily.
+The target variable is **explicit content** (binary: 1 = explicit, 0 = not explicit). However, the dataset shows a **class imbalance**, with more non-explicit tracks. To address this and avoid biased predictions, both models were trained using **`class_weight='balanced'`**, which adjusts for this skew by weighting minority class samples more heavily.
 
 ### Models Used
 
