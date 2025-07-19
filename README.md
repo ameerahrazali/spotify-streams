@@ -59,7 +59,7 @@ _Balanced model selection helps ensure fairer evaluation and better generalizati
 | Balanced Random Forest     | 67%      | 0.39              | 0.70 | Most balanced overall          |
 | Balanced Logistic Regression | 51%    | 0.72              | 0.59 | High recall, low precision     |
 
-Both models outperform a naive guess and help reveal streaming behavior patterns tied to explicit labeling.
+Both models outperform a baseline majority-class predictor and uncover meaningful patterns behind explicit labeling.
 
 ---
 
@@ -76,4 +76,13 @@ To compare the models across thresholds, ROC curves were plotted:
 ## Tools & Libraries
 - Python, Pandas, NumPy  
 - Seaborn, Matplotlib  
-- Scikit-learn (classification models, metrics, preprocessing)  
+- Scikit-learn (classification models, metrics, preprocessing)
+
+---
+
+## Key Insights
+
+- **Virality matters**: Tracks with more TikTok and YouTube activity tend to have more Spotify streams  
+- **Explicit content thrives**: Explicit songs are common among top-streamed tracks, defying the idea that they perform worse  
+- **Shazam Counts** were one of the strongest predictors of explicit labeling — likely reflecting discoverability of edgy content  
+- **Balanced models** helped uncover these insights without being biased toward the majority class
