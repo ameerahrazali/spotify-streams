@@ -84,5 +84,5 @@ To compare the models across thresholds, ROC curves were plotted:
 
 - **Virality matters**: Tracks with more TikTok and YouTube activity tend to have more Spotify streams  
 - **Explicit content thrives**: Explicit songs are common among top-streamed tracks, defying the idea that they perform worse  
-- **Shazam Counts** were one of the strongest predictors of explicit labeling — likely reflecting discoverability of edgy content  
+- **YouTube Likes and Tiktok Likes** were one of the strongest predictors of explicit labeling — likely reflecting the engagement 
 - **Balanced models** helped uncover these insights without being biased toward the majority class
